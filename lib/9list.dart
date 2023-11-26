@@ -1,0 +1,69 @@
+void main() {
+//List
+  //  list of value ,collection of value
+  // like  shady ,mohamed , ahmed is a student name
+  //must use coma ,mohamed ,ahmed
+
+  // List<String> students = ['shady', 'mohamed', 'ahmed'];
+  // print(students);
+  // print(students[0]);
+  // print(students[1]);
+  // print(students[2]);
+  // print(students[3]);
+
+  // index not in the list
+
+  //List of List
+
+  // List number = [
+  //   1,
+  //   2,
+  //   [1, 33, 443, 2221, 32],
+  //   3,
+  //   [4],
+  //   5,
+  // ];
+
+  // print(number);
+  // print(number[2]);
+  // print(number[1]);
+  // print(number[3]);
+
+  //rename value of list
+
+  // List<String> names = ['shady', 'mohamed', 'ahmed'];
+
+  // names[2] = 'anyname';
+  // print(names[2]);
+
+  //print values in names list
+  // for (int i = 0; i < names.length; i++) {
+  //   print(names[i]);
+  // }
+
+  //another way
+  // names.forEach((name) {
+  //   print(name);
+  // });
+
+  //add ,addall  add in finla of list
+
+  // List names = ['shady', 'mohamed', 'ahmed'];
+  // //add to list
+  // names.add(['any name in room', 'any name inside']);// add list to list or add single value
+  // names.addAll(['sasa', 'mooo']); //to add value of list to list
+
+  // print(names);
+
+  //insrt,insertall
+
+  // List names = ['shady', 'mohamed', 'ahmed'];
+  // //add to list
+  // names.insert(0, [
+  //   'any name in room',
+  //   'any name inside'
+  // ]); // add list to list or add single value
+  // names.insert(3, ['sasa', 'mooo']); //to add value of list to list
+
+  // print(names);
+}
